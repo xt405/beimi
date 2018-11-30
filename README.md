@@ -6,6 +6,10 @@
 
 贝密游戏是一系列棋牌游戏的名称，其中包含麻将、斗地主、德州，目前正在进行UI设计以及后台系统（JAVA）开发，7月中发布0.1.0版本，仅包含前端UI方案，预计8月份发布首个版本，敬请关注！
 
+mvn install:install-file -Dfile=jave-1.0.2.jar -DgroupId=lt.jave -DartifactId=jave -Dversion=1.0.2 -Dpackaging=jar
+mvn install:install-file -Dfile=ip2region-1.2.4.jar -DgroupId=org.lionsoul.ip2region -DartifactId=ip2region -Dversion=1.2.4 -Dpackaging=jar
+
+使用spring-boot:run启动,不然会报servlet找不到
 
 1. 开发工具：Cocos Creater
 1. 开发语言：Java + JavaScript
